@@ -1,8 +1,6 @@
 # TME_Digital_Twin
 A multimodal Tumor Microenvironment (TME) Digital Twin framework that learns an interpretable latent biology state (z) from spatial transcriptomics and trains image→z models from histology, enabling cross-modal alignment and simulation-ready state representations.
 
-# TME_Digital_Twin
-
 This repository implements a Tumor Microenvironment (TME) Digital Twin framework that integrates spatial transcriptomics and tissue imaging into a shared, interpretable latent state space **z**. We use 10x Visium HD (CRC and breast) as a spatial + histology anchor to (i) define **z_spatial** (cell-type composition + gene programs + QC) at the bin level and (ii) supervise patch-level **WSI → z** models. The resulting state representation is designed to be compatible with bulk RNA-seq and radiology anchors (e.g., TCGA/GDC), supporting downstream simulation and outcome modeling.
 
 Current pipeline (working end-to-end):
